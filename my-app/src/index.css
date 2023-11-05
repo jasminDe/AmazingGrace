@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: rgb(242, 238, 238);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -8,9 +9,19 @@ body {
 }
 
 .header{
-  background-color: rgb(113, 113, 238);
+display: flex;
+justify-content: center;
 }
 
+.sub_header{
+display: flex;
+}
+
+
+img{
+  height: 88px;
+  width: 156px;
+}
 .navigationBar{
   display: inline-flex;
   
