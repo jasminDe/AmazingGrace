@@ -1,5 +1,5 @@
 import React from 'react'
-import discription from './discription'
+import discription from '../discription'
 
 function AboutUs({title, discrption}) {
   return (
