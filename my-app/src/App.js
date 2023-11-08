@@ -1,9 +1,9 @@
 import './App.css';
-import User from './User';
+import User from './components/User';
 import PersonIcon from '@mui/icons-material/Person';
 import DriveEtaIcon from '@mui/icons-material/DriveEta';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
-import AboutUs from './AboutUs';
+import AboutUs from './components/AboutUs';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
               {/* HEADER */}
       <div className='header'>
       <div className='sub_header'>
-        <img src="AGMT_Logo.png" alt="logo" />
+        <img src="images/AGMT_Logo.png" alt="logo" />
         <h1>AMAZING GRACE MOBILE TRANSPORT</h1>
       </div>
         <h3>We're Simply Amazing</h3> 
