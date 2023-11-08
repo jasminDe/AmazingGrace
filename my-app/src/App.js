@@ -3,11 +3,14 @@ import User from './User';
 import PersonIcon from '@mui/icons-material/Person';
 import DriveEtaIcon from '@mui/icons-material/DriveEta';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
+import AboutUs from './AboutUs';
 
 
 function App() {
   return (
     <div className="App">
+
+              {/* HEADER */}
       <div className='header'>
       <div className='sub_header'>
         <img src="AGMT_Logo.png" alt="logo" />
@@ -16,6 +19,8 @@ function App() {
         <h3>We're Simply Amazing</h3> 
       </div>
 
+              {/* NAVIGATION BAR */}
+      
       <div className='navigationBar'>
         <div className='user'>
           <button>
@@ -38,7 +43,14 @@ function App() {
           </button>
         </div>
       </div>
-      {/* About Us */}
+
+
+              {/* About Us */}
+      <div className='about us'>
+        <AboutUs title='The Team'/>
+        <AboutUs title='clients'/>
+        <AboutUs title='Vehicles'/>
+      </div>
       {/* footer (contact us/Join our team) */}
     </div>
   );
