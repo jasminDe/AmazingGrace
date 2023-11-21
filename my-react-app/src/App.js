@@ -3,7 +3,7 @@ import User from './components/User';
 import PersonIcon from '@mui/icons-material/Person';
 import DriveEtaIcon from '@mui/icons-material/DriveEta';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
-import AboutUs from './components/AboutUs';
+import discriptions from './discriptions';
 
 
 function App() {
@@ -48,16 +48,27 @@ function App() {
               {/* About Us */}
       <div className='about us'>
          <div>
-          <h3>Staff</h3>
-         <img src="images/coWorkers.jpg" alt="coWorkers" />
+            <h3>Staff</h3>
+            <img src="images/coWorkers.jpg" alt="coWorkers" />
+            <div>
+              {discriptions.team}
+            </div>
          </div>
+
          <div>
-          <h3>Clients</h3>
-         <img src="images/happyPeople.jpg" alt="coWorkers" />
+           <h3>Clients</h3>
+            <img src="images/happyPeople.jpg" alt="coWorkers" />
+            <div>
+              {discriptions.client}
+            </div>
          </div>
+
          <div>
-          <h3>Vehicles</h3>
-         <img src="images/picOfb42.jpeg" alt="coWorkers" />
+           <h3>Vehicles</h3>
+           <img src="images/picOfb42.jpeg" alt="coWorkers" />
+           <div>
+              {discriptions.vehicle}
+            </div>
          </div>
       </div>
       {/* footer (contact us/Join our team) */}
