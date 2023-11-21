@@ -47,9 +47,18 @@ function App() {
 
               {/* About Us */}
       <div className='about us'>
-        <AboutUs title='The Team'/>
-        <AboutUs title='clients'/>
-        <AboutUs title='Vehicles'/>
+         <div>
+          <h3>Staff</h3>
+         <img src="images/coWorkers.jpg" alt="coWorkers" />
+         </div>
+         <div>
+          <h3>Clients</h3>
+         <img src="images/happyPeople.jpg" alt="coWorkers" />
+         </div>
+         <div>
+          <h3>Vehicles</h3>
+         <img src="images/picOfb42.jpeg" alt="coWorkers" />
+         </div>
       </div>
       {/* footer (contact us/Join our team) */}
     </div>
